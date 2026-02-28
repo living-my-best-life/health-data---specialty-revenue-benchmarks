@@ -65,6 +65,7 @@ function CustomTooltip({ active, payload, label }: any) {
 }
 
 const PERIODS: { start: string; end: string; label: string }[] = [
+  { start: "2023-01-01", end: "2023-12-31", label: "2023 Full Year" },
   { start: "2024-01-01", end: "2024-12-31", label: "2024 Full Year" },
   { start: "2025-01-01", end: "2025-06-30", label: "2025 H1" },
 ];

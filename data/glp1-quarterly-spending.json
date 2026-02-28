@@ -2,6 +2,33 @@
   {
     "brnd_name": "Ozempic",
     "gnrc_name": "Semaglutide",
+    "tot_spndng": 9190971977.90,
+    "tot_clms": 6925667,
+    "tot_benes": 1463887,
+    "period_start": "2023-01-01",
+    "period_end": "2023-12-31"
+  },
+  {
+    "brnd_name": "Mounjaro",
+    "gnrc_name": "Tirzepatide",
+    "tot_spndng": 2360646240.60,
+    "tot_clms": 1820883,
+    "tot_benes": 370074,
+    "period_start": "2023-01-01",
+    "period_end": "2023-12-31"
+  },
+  {
+    "brnd_name": "Rybelsus",
+    "gnrc_name": "Semaglutide",
+    "tot_spndng": 1665314555.50,
+    "tot_clms": 1074653,
+    "tot_benes": 285571,
+    "period_start": "2023-01-01",
+    "period_end": "2023-12-31"
+  },
+  {
+    "brnd_name": "Ozempic",
+    "gnrc_name": "Semaglutide",
     "tot_spndng": 12970664473.05,
     "tot_clms": 10417488,
     "tot_benes": 1952687,
