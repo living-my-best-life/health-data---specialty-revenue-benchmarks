@@ -64,30 +64,20 @@ function CustomTooltip({ active, payload, label }: any) {
   );
 }
 
-function periodKey(d: SpendingData): string {
-  return `${d.period_start}|${d.period_end}`;
-}
-
-function periodLabel(start: string, end: string): string {
-  const s = new Date(start);
-  const e = new Date(end);
-  const year = s.getFullYear();
-  const months = (e.getFullYear() - s.getFullYear()) * 12 + (e.getMonth() - s.getMonth()) + 1;
-  if (months >= 12) return `${year} Full Year`;
-  if (months <= 3) return `${year} Q1`;
-  if (months <= 6) return `${year} H1`;
-  return `${year}`;
-}
+const PERIODS: { start: string; end: string; label: string }[] = [
+  { start: "2024-01-01", end: "2024-12-31", label: "2024 Full Year" },
+  { start: "2025-01-01", end: "2025-06-30", label: "2025 H1" },
+];
 
 export default function GLP1ClaimsChart({ data }: Props) {
   const brands = [...new Set(data.map((d) => d.brnd_name))];
 
-  const periodKeys = [...new Set(data.map(periodKey))].sort();
-  const chartData = periodKeys.map((pk) => {
-    const [start, end] = pk.split("|");
-    const row: any = { period: periodLabel(start, end) };
+  const chartData = PERIODS.map((p) => {
+    const row: any = { period: p.label };
     brands.forEach((b) => {
-      const entry = data.find((d) => periodKey(d) === pk && d.brnd_name === b);
+      const entry = data.find(
+        (d) => d.brnd_name === b && d.period_start === p.start && d.period_end === p.end
+      );
       row[b] = entry ? entry.tot_clms : 0;
     });
     return row;
