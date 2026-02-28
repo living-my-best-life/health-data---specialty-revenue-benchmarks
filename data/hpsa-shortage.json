@@ -1,0 +1,359 @@
+[
+  {
+    "state": "AK",
+    "pc_shortage_areas": 337,
+    "pc_total_shortage": 84.81,
+    "mh_shortage_areas": 334,
+    "mh_total_shortage": 31.70
+  },
+  {
+    "state": "AL",
+    "pc_shortage_areas": 111,
+    "pc_total_shortage": 237.15,
+    "mh_shortage_areas": 63,
+    "mh_total_shortage": 393.64
+  },
+  {
+    "state": "AR",
+    "pc_shortage_areas": 134,
+    "pc_total_shortage": 131.66,
+    "mh_shortage_areas": 79,
+    "mh_total_shortage": 283.01
+  },
+  {
+    "state": "AZ",
+    "pc_shortage_areas": 986,
+    "pc_total_shortage": 8954.10,
+    "mh_shortage_areas": 203,
+    "mh_total_shortage": 2194.92
+  },
+  {
+    "state": "CA",
+    "pc_shortage_areas": 2619,
+    "pc_total_shortage": 18386.29,
+    "mh_shortage_areas": 586,
+    "mh_total_shortage": 12064.23
+  },
+  {
+    "state": "CO",
+    "pc_shortage_areas": 364,
+    "pc_total_shortage": 2633.81,
+    "mh_shortage_areas": 72,
+    "mh_total_shortage": 363.24
+  },
+  {
+    "state": "CT",
+    "pc_shortage_areas": 168,
+    "pc_total_shortage": 276.17,
+    "mh_shortage_areas": 41,
+    "mh_total_shortage": 914.68
+  },
+  {
+    "state": "DC",
+    "pc_shortage_areas": 157,
+    "pc_total_shortage": 3627.37,
+    "mh_shortage_areas": 11,
+    "mh_total_shortage": 370.04
+  },
+  {
+    "state": "DE",
+    "pc_shortage_areas": 86,
+    "pc_total_shortage": 2248.27,
+    "mh_shortage_areas": 11,
+    "mh_total_shortage": 161.14
+  },
+  {
+    "state": "FL",
+    "pc_shortage_areas": 1435,
+    "pc_total_shortage": 23606.88,
+    "mh_shortage_areas": 211,
+    "mh_total_shortage": 3686.98
+  },
+  {
+    "state": "GA",
+    "pc_shortage_areas": 461,
+    "pc_total_shortage": 2437.96,
+    "mh_shortage_areas": 84,
+    "mh_total_shortage": 1298.55
+  },
+  {
+    "state": "HI",
+    "pc_shortage_areas": 51,
+    "pc_total_shortage": 381.67,
+    "mh_shortage_areas": 31,
+    "mh_total_shortage": 28.47
+  },
+  {
+    "state": "IA",
+    "pc_shortage_areas": 201,
+    "pc_total_shortage": 233.59,
+    "mh_shortage_areas": 165,
+    "mh_total_shortage": 315.32
+  },
+  {
+    "state": "ID",
+    "pc_shortage_areas": 107,
+    "pc_total_shortage": 101.37,
+    "mh_shortage_areas": 64,
+    "mh_total_shortage": 296.73
+  },
+  {
+    "state": "IL",
+    "pc_shortage_areas": 1024,
+    "pc_total_shortage": 7593.62,
+    "mh_shortage_areas": 194,
+    "mh_total_shortage": 7366.63
+  },
+  {
+    "state": "IN",
+    "pc_shortage_areas": 250,
+    "pc_total_shortage": 1828.10,
+    "mh_shortage_areas": 95,
+    "mh_total_shortage": 878.86
+  },
+  {
+    "state": "KS",
+    "pc_shortage_areas": 162,
+    "pc_total_shortage": 113.99,
+    "mh_shortage_areas": 111,
+    "mh_total_shortage": 277.92
+  },
+  {
+    "state": "KY",
+    "pc_shortage_areas": 288,
+    "pc_total_shortage": 1604.82,
+    "mh_shortage_areas": 136,
+    "mh_total_shortage": 612.12
+  },
+  {
+    "state": "LA",
+    "pc_shortage_areas": 242,
+    "pc_total_shortage": 507.51,
+    "mh_shortage_areas": 165,
+    "mh_total_shortage": 150.45
+  },
+  {
+    "state": "MA",
+    "pc_shortage_areas": 137,
+    "pc_total_shortage": 785.67,
+    "mh_shortage_areas": 51,
+    "mh_total_shortage": 19.17
+  },
+  {
+    "state": "MD",
+    "pc_shortage_areas": 452,
+    "pc_total_shortage": 5925.02,
+    "mh_shortage_areas": 48,
+    "mh_total_shortage": 856.35
+  },
+  {
+    "state": "ME",
+    "pc_shortage_areas": 244,
+    "pc_total_shortage": 134.31,
+    "mh_shortage_areas": 64,
+    "mh_total_shortage": 301.40
+  },
+  {
+    "state": "MI",
+    "pc_shortage_areas": 711,
+    "pc_total_shortage": 14269.93,
+    "mh_shortage_areas": 234,
+    "mh_total_shortage": 3120.86
+  },
+  {
+    "state": "MN",
+    "pc_shortage_areas": 1189,
+    "pc_total_shortage": 2534.46,
+    "mh_shortage_areas": 133,
+    "mh_total_shortage": 1329.31
+  },
+  {
+    "state": "MO",
+    "pc_shortage_areas": 652,
+    "pc_total_shortage": 5237.51,
+    "mh_shortage_areas": 249,
+    "mh_total_shortage": 1393.09
+  },
+  {
+    "state": "MS",
+    "pc_shortage_areas": 171,
+    "pc_total_shortage": 356.35,
+    "mh_shortage_areas": 84,
+    "mh_total_shortage": 980.75
+  },
+  {
+    "state": "MT",
+    "pc_shortage_areas": 132,
+    "pc_total_shortage": 55.18,
+    "mh_shortage_areas": 106,
+    "mh_total_shortage": 136.41
+  },
+  {
+    "state": "NC",
+    "pc_shortage_areas": 334,
+    "pc_total_shortage": 2458.44,
+    "mh_shortage_areas": 190,
+    "mh_total_shortage": 907.52
+  },
+  {
+    "state": "ND",
+    "pc_shortage_areas": 180,
+    "pc_total_shortage": 83.76,
+    "mh_shortage_areas": 72,
+    "mh_total_shortage": 66.84
+  },
+  {
+    "state": "NE",
+    "pc_shortage_areas": 121,
+    "pc_total_shortage": 25.49,
+    "mh_shortage_areas": 84,
+    "mh_total_shortage": 525.92
+  },
+  {
+    "state": "NH",
+    "pc_shortage_areas": 83,
+    "pc_total_shortage": 91.45,
+    "mh_shortage_areas": 18,
+    "mh_total_shortage": 53.52
+  },
+  {
+    "state": "NJ",
+    "pc_shortage_areas": 36,
+    "pc_total_shortage": 17.90,
+    "mh_shortage_areas": 38,
+    "mh_total_shortage": 20.15
+  },
+  {
+    "state": "NM",
+    "pc_shortage_areas": 120,
+    "pc_total_shortage": 271.68,
+    "mh_shortage_areas": 94,
+    "mh_total_shortage": 376.74
+  },
+  {
+    "state": "NV",
+    "pc_shortage_areas": 477,
+    "pc_total_shortage": 8920.45,
+    "mh_shortage_areas": 56,
+    "mh_total_shortage": 12558.41
+  },
+  {
+    "state": "NY",
+    "pc_shortage_areas": 1939,
+    "pc_total_shortage": 52193.03,
+    "mh_shortage_areas": 192,
+    "mh_total_shortage": 10329.06
+  },
+  {
+    "state": "OH",
+    "pc_shortage_areas": 531,
+    "pc_total_shortage": 2775.51,
+    "mh_shortage_areas": 136,
+    "mh_total_shortage": 396.47
+  },
+  {
+    "state": "OK",
+    "pc_shortage_areas": 270,
+    "pc_total_shortage": 1497.74,
+    "mh_shortage_areas": 121,
+    "mh_total_shortage": 940.91
+  },
+  {
+    "state": "OR",
+    "pc_shortage_areas": 288,
+    "pc_total_shortage": 406.33,
+    "mh_shortage_areas": 128,
+    "mh_total_shortage": 119.59
+  },
+  {
+    "state": "PA",
+    "pc_shortage_areas": 526,
+    "pc_total_shortage": 598.96,
+    "mh_shortage_areas": 119,
+    "mh_total_shortage": 76.86
+  },
+  {
+    "state": "RI",
+    "pc_shortage_areas": 14,
+    "pc_total_shortage": 15.56,
+    "mh_shortage_areas": 12,
+    "mh_total_shortage": 11.01
+  },
+  {
+    "state": "SC",
+    "pc_shortage_areas": 104,
+    "pc_total_shortage": 209.86,
+    "mh_shortage_areas": 73,
+    "mh_total_shortage": 306.76
+  },
+  {
+    "state": "SD",
+    "pc_shortage_areas": 99,
+    "pc_total_shortage": 54.38,
+    "mh_shortage_areas": 58,
+    "mh_total_shortage": 211.43
+  },
+  {
+    "state": "TN",
+    "pc_shortage_areas": 340,
+    "pc_total_shortage": 1711.81,
+    "mh_shortage_areas": 81,
+    "mh_total_shortage": 2075.45
+  },
+  {
+    "state": "TX",
+    "pc_shortage_areas": 953,
+    "pc_total_shortage": 11059.32,
+    "mh_shortage_areas": 376,
+    "mh_total_shortage": 1478.50
+  },
+  {
+    "state": "UT",
+    "pc_shortage_areas": 265,
+    "pc_total_shortage": 3674.16,
+    "mh_shortage_areas": 53,
+    "mh_total_shortage": 130.99
+  },
+  {
+    "state": "VA",
+    "pc_shortage_areas": 180,
+    "pc_total_shortage": 491.26,
+    "mh_shortage_areas": 97,
+    "mh_total_shortage": 456.65
+  },
+  {
+    "state": "VT",
+    "pc_shortage_areas": 28,
+    "pc_total_shortage": 1.88,
+    "mh_shortage_areas": 12,
+    "mh_total_shortage": 0
+  },
+  {
+    "state": "WA",
+    "pc_shortage_areas": 730,
+    "pc_total_shortage": 12343.04,
+    "mh_shortage_areas": 194,
+    "mh_total_shortage": 2502.93
+  },
+  {
+    "state": "WI",
+    "pc_shortage_areas": 523,
+    "pc_total_shortage": 4024.31,
+    "mh_shortage_areas": 171,
+    "mh_total_shortage": 1390.42
+  },
+  {
+    "state": "WV",
+    "pc_shortage_areas": 119,
+    "pc_total_shortage": 125.41,
+    "mh_shortage_areas": 113,
+    "mh_total_shortage": 128.86
+  },
+  {
+    "state": "WY",
+    "pc_shortage_areas": 49,
+    "pc_total_shortage": 38.40,
+    "mh_shortage_areas": 22,
+    "mh_total_shortage": 101.57
+  }
+]

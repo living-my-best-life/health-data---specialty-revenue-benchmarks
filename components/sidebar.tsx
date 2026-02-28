@@ -30,7 +30,7 @@ const navItems = [
     label: "Provider Density",
     description: "Market gaps & opportunity",
     icon: "🗺️",
-    active: false,
+    active: true,
   },
   {
     href: "/ed-vs-urgent-care",
