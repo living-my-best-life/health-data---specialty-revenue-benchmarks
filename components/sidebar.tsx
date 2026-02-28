@@ -37,7 +37,7 @@ const navItems = [
     label: "ED vs Urgent Care",
     description: "Value & efficiency comparison",
     icon: "🏥",
-    active: false,
+    active: true,
   },
 ];
 

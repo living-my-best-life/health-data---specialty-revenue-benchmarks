@@ -1,0 +1,8 @@
+[
+  {"year": 2018, "providers": 44596, "total_benes": 17758178, "total_payments": 2383392136.11},
+  {"year": 2019, "providers": 45528, "total_benes": 17458813, "total_payments": 2365892401.03},
+  {"year": 2020, "providers": 45848, "total_benes": 14103738, "total_payments": 2055186998.03},
+  {"year": 2021, "providers": 46367, "total_benes": 14724305, "total_payments": 2230023756.83},
+  {"year": 2022, "providers": 47367, "total_benes": 14583383, "total_payments": 2218205475.09},
+  {"year": 2023, "providers": 48541, "total_benes": 14034485, "total_payments": 2026504177.69}
+]
