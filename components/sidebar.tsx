@@ -16,7 +16,7 @@ const navItems = [
     label: "GLP-1 Trends",
     description: "Prescribing & market growth",
     icon: "💊",
-    active: false,
+    active: true,
   },
   {
     href: "/payer-rates",

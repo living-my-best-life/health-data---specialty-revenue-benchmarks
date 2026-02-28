@@ -1,0 +1,212 @@
+[
+  {
+    "specialty": "Family Practice",
+    "brand_group": "Semaglutide",
+    "total_claims": 2057694,
+    "total_cost": 2682713927.79,
+    "num_prescribers": 45364
+  },
+  {
+    "specialty": "Internal Medicine",
+    "brand_group": "Semaglutide",
+    "total_claims": 1853287,
+    "total_cost": 2477730947.93,
+    "num_prescribers": 33658
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "brand_group": "Semaglutide",
+    "total_claims": 1415021,
+    "total_cost": 1880697949.54,
+    "num_prescribers": 31972
+  },
+  {
+    "specialty": "Endocrinology",
+    "brand_group": "Semaglutide",
+    "total_claims": 977954,
+    "total_cost": 1505043533.99,
+    "num_prescribers": 5530
+  },
+  {
+    "specialty": "Physician Assistant",
+    "brand_group": "Semaglutide",
+    "total_claims": 485634,
+    "total_cost": 648349012.16,
+    "num_prescribers": 11064
+  },
+  {
+    "specialty": "Cardiology",
+    "brand_group": "Semaglutide",
+    "total_claims": 71450,
+    "total_cost": 91930438.89,
+    "num_prescribers": 1354
+  },
+  {
+    "specialty": "General Practice",
+    "brand_group": "Semaglutide",
+    "total_claims": 67624,
+    "total_cost": 84273137.75,
+    "num_prescribers": 1456
+  },
+  {
+    "specialty": "Pharmacist",
+    "brand_group": "Semaglutide",
+    "total_claims": 34329,
+    "total_cost": 39670496.68,
+    "num_prescribers": 689
+  },
+  {
+    "specialty": "Nephrology",
+    "brand_group": "Semaglutide",
+    "total_claims": 31376,
+    "total_cost": 40298015.33,
+    "num_prescribers": 635
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "brand_group": "Semaglutide",
+    "total_claims": 21823,
+    "total_cost": 27234488.51,
+    "num_prescribers": 445
+  },
+  {
+    "specialty": "Geriatric Medicine",
+    "brand_group": "Semaglutide",
+    "total_claims": 16698,
+    "total_cost": 21784170.31,
+    "num_prescribers": 426
+  },
+  {
+    "specialty": "Hospitalist",
+    "brand_group": "Semaglutide",
+    "total_claims": 16448,
+    "total_cost": 21199102.68,
+    "num_prescribers": 436
+  },
+  {
+    "specialty": "Student in an Organized Health Care Education/Training Program",
+    "brand_group": "Semaglutide",
+    "total_claims": 13045,
+    "total_cost": 15620755.45,
+    "num_prescribers": 736
+  },
+  {
+    "specialty": "Pediatric Medicine",
+    "brand_group": "Semaglutide",
+    "total_claims": 11651,
+    "total_cost": 14883736.58,
+    "num_prescribers": 295
+  },
+  {
+    "specialty": "General Surgery",
+    "brand_group": "Semaglutide",
+    "total_claims": 9968,
+    "total_cost": 11760568.66,
+    "num_prescribers": 244
+  },
+  {
+    "specialty": "Family Practice",
+    "brand_group": "Tirzepatide",
+    "total_claims": 409800,
+    "total_cost": 514080449.29,
+    "num_prescribers": 13686
+  },
+  {
+    "specialty": "Internal Medicine",
+    "brand_group": "Tirzepatide",
+    "total_claims": 360938,
+    "total_cost": 460497073.63,
+    "num_prescribers": 10537
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "brand_group": "Tirzepatide",
+    "total_claims": 345561,
+    "total_cost": 441553125.96,
+    "num_prescribers": 10686
+  },
+  {
+    "specialty": "Endocrinology",
+    "brand_group": "Tirzepatide",
+    "total_claims": 234036,
+    "total_cost": 332283084.10,
+    "num_prescribers": 3926
+  },
+  {
+    "specialty": "Physician Assistant",
+    "brand_group": "Tirzepatide",
+    "total_claims": 97817,
+    "total_cost": 126134096.63,
+    "num_prescribers": 3255
+  },
+  {
+    "specialty": "Cardiology",
+    "brand_group": "Tirzepatide",
+    "total_claims": 14350,
+    "total_cost": 17865730.73,
+    "num_prescribers": 370
+  },
+  {
+    "specialty": "General Practice",
+    "brand_group": "Tirzepatide",
+    "total_claims": 11766,
+    "total_cost": 14727771.50,
+    "num_prescribers": 368
+  },
+  {
+    "specialty": "Nephrology",
+    "brand_group": "Tirzepatide",
+    "total_claims": 6381,
+    "total_cost": 8002115.55,
+    "num_prescribers": 150
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "brand_group": "Tirzepatide",
+    "total_claims": 5224,
+    "total_cost": 6354827.72,
+    "num_prescribers": 168
+  },
+  {
+    "specialty": "Pharmacist",
+    "brand_group": "Tirzepatide",
+    "total_claims": 4497,
+    "total_cost": 5630923.57,
+    "num_prescribers": 133
+  },
+  {
+    "specialty": "General Surgery",
+    "brand_group": "Tirzepatide",
+    "total_claims": 3216,
+    "total_cost": 3851337.99,
+    "num_prescribers": 104
+  },
+  {
+    "specialty": "Hospitalist",
+    "brand_group": "Tirzepatide",
+    "total_claims": 2720,
+    "total_cost": 3507233.37,
+    "num_prescribers": 106
+  },
+  {
+    "specialty": "Obstetrics & Gynecology",
+    "brand_group": "Tirzepatide",
+    "total_claims": 2653,
+    "total_cost": 3077319.65,
+    "num_prescribers": 112
+  },
+  {
+    "specialty": "Pediatric Medicine",
+    "brand_group": "Tirzepatide",
+    "total_claims": 2523,
+    "total_cost": 3127378.14,
+    "num_prescribers": 92
+  },
+  {
+    "specialty": "Certified Clinical Nurse Specialist",
+    "brand_group": "Tirzepatide",
+    "total_claims": 2081,
+    "total_cost": 2794218.66,
+    "num_prescribers": 49
+  }
+]

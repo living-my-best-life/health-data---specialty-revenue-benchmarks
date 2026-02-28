@@ -1,5 +1,6 @@
 "use client";
 
+import { useMemo } from "react";
 import DashboardHeader from "@/components/dashboard-header";
 import MetricCard from "@/components/metric-card";
 import SpecialtyBarChart from "@/components/charts/specialty-bar-chart";
@@ -8,11 +9,13 @@ import ProviderVolumeChart from "@/components/charts/provider-volume-chart";
 import ProcedureTable from "@/components/charts/procedure-table";
 import StateHeatmap from "@/components/charts/state-heatmap";
 import RevenueScatter from "@/components/charts/revenue-scatter";
+import TrendLineChart from "@/components/charts/trend-line-chart";
 import { formatCurrency, formatNumber } from "@/lib/utils";
 
 import specialtySummary from "@/data/specialty-summary.json";
 import topProcedures from "@/data/top-procedures.json";
 import stateSpecialty from "@/data/state-specialty.json";
+import specialtyTrends from "@/data/specialty-trends.json";
 
 interface SpecialtySummary {
   specialty: string;
@@ -43,9 +46,19 @@ interface StateData {
   avg_payment: number;
 }
 
+interface TrendData {
+  year: number;
+  specialty: string;
+  provider_count: number;
+  total_payments: number;
+  avg_payment_per_provider: number;
+  avg_benes: number;
+}
+
 const summary = specialtySummary as SpecialtySummary[];
 const procedures = topProcedures as ProcedureData[];
 const stateData = stateSpecialty as StateData[];
+const trends = specialtyTrends as TrendData[];
 
 export default function SpecialtyBenchmarkPage() {
   const totalProviders = summary.reduce((s, d) => s + d.provider_count, 0);
@@ -55,12 +68,33 @@ export default function SpecialtyBenchmarkPage() {
   )[0];
   const specialties = summary.map((d) => d.specialty).sort();
 
+  const fastestGrowing = useMemo(() => {
+    const growth: { specialty: string; cagr: number }[] = [];
+    const specs = [...new Set(trends.map((t) => t.specialty))];
+    specs.forEach((s) => {
+      const rows = trends.filter((t) => t.specialty === s).sort((a, b) => a.year - b.year);
+      if (rows.length >= 2) {
+        const first = rows[0];
+        const last = rows[rows.length - 1];
+        const years = last.year - first.year;
+        if (first.avg_payment_per_provider > 0 && years > 0) {
+          const cagr =
+            (Math.pow(last.avg_payment_per_provider / first.avg_payment_per_provider, 1 / years) -
+              1) *
+            100;
+          growth.push({ specialty: s, cagr });
+        }
+      }
+    });
+    return growth.sort((a, b) => b.cagr - a.cagr)[0];
+  }, []);
+
   return (
     <div style={{ maxWidth: 1200 }}>
       <DashboardHeader
         title="Specialty Revenue Benchmark"
         description="Compare Medicare Part B revenue, procedure volumes, and payment patterns across 9 key specialties relevant to urgent care and on-demand healthcare."
-        badge="2023 Data"
+        badge="2013–2023 Data"
       />
 
       {/* Metric Cards */}
@@ -83,31 +117,36 @@ export default function SpecialtyBenchmarkPage() {
           accentColor="#a855f7"
         />
         <MetricCard
-          label="Data Year"
-          value="2023"
-          subtext="CMS Medicare Provider Utilization"
+          label="Fastest Growing (CAGR)"
+          value={fastestGrowing ? `+${fastestGrowing.cagr.toFixed(1)}%` : "—"}
+          subtext={fastestGrowing?.specialty || "—"}
           accentColor="#06b6d4"
         />
       </div>
 
-      {/* Row 1: Revenue bar + Market size */}
+      {/* Row 1: Trend chart (full width) */}
+      <div style={{ marginBottom: 20 }}>
+        <TrendLineChart data={trends} />
+      </div>
+
+      {/* Row 2: Revenue bar + Market size */}
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, marginBottom: 20 }}>
         <SpecialtyBarChart data={summary} />
         <MarketSizeChart data={summary} />
       </div>
 
-      {/* Row 2: Provider volume + Scatter */}
+      {/* Row 3: Provider volume + Scatter */}
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, marginBottom: 20 }}>
         <ProviderVolumeChart data={summary} />
         <RevenueScatter data={summary} />
       </div>
 
-      {/* Row 3: Full width table */}
+      {/* Row 4: Full width table */}
       <div style={{ marginBottom: 20 }}>
         <ProcedureTable data={procedures} specialties={specialties} />
       </div>
 
-      {/* Row 4: Full width heatmap */}
+      {/* Row 5: Full width heatmap */}
       <div style={{ marginBottom: 40 }}>
         <StateHeatmap data={stateData} specialties={specialties} />
       </div>
