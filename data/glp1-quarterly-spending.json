@@ -1,0 +1,164 @@
+[
+  {
+    "brnd_name": "Ozempic",
+    "gnrc_name": "Semaglutide",
+    "tot_spndng": 9190971977.90,
+    "tot_clms": 6925667,
+    "tot_benes": 1463887,
+    "period_start": "2023-01-01",
+    "period_end": "2023-12-31"
+  },
+  {
+    "brnd_name": "Mounjaro",
+    "gnrc_name": "Tirzepatide",
+    "tot_spndng": 2360646240.60,
+    "tot_clms": 1820883,
+    "tot_benes": 370074,
+    "period_start": "2023-01-01",
+    "period_end": "2023-12-31"
+  },
+  {
+    "brnd_name": "Rybelsus",
+    "gnrc_name": "Semaglutide",
+    "tot_spndng": 1665314555.50,
+    "tot_clms": 1074653,
+    "tot_benes": 285571,
+    "period_start": "2023-01-01",
+    "period_end": "2023-12-31"
+  },
+  {
+    "brnd_name": "Ozempic",
+    "gnrc_name": "Semaglutide",
+    "tot_spndng": 12970664473.05,
+    "tot_clms": 10417488,
+    "tot_benes": 1952687,
+    "period_start": "2024-01-01",
+    "period_end": "2024-12-31"
+  },
+  {
+    "brnd_name": "Ozempic",
+    "gnrc_name": "Semaglutide",
+    "tot_spndng": 3626490034.00,
+    "tot_clms": 2847509,
+    "tot_benes": 1397857,
+    "period_start": "2025-01-01",
+    "period_end": "2025-03-31"
+  },
+  {
+    "brnd_name": "Ozempic",
+    "gnrc_name": "Semaglutide",
+    "tot_spndng": 7634398463.47,
+    "tot_clms": 5956699,
+    "tot_benes": 1684275,
+    "period_start": "2025-01-01",
+    "period_end": "2025-06-30"
+  },
+  {
+    "brnd_name": "Rybelsus",
+    "gnrc_name": "Semaglutide",
+    "tot_spndng": 1890115381.45,
+    "tot_clms": 1251763,
+    "tot_benes": 309999,
+    "period_start": "2024-01-01",
+    "period_end": "2024-12-31"
+  },
+  {
+    "brnd_name": "Rybelsus",
+    "gnrc_name": "Semaglutide",
+    "tot_spndng": 464761741.00,
+    "tot_clms": 295310,
+    "tot_benes": 176330,
+    "period_start": "2025-01-01",
+    "period_end": "2025-03-31"
+  },
+  {
+    "brnd_name": "Rybelsus",
+    "gnrc_name": "Semaglutide",
+    "tot_spndng": 965049809.86,
+    "tot_clms": 607502,
+    "tot_benes": 221565,
+    "period_start": "2025-01-01",
+    "period_end": "2025-06-30"
+  },
+  {
+    "brnd_name": "Wegovy",
+    "gnrc_name": "Semaglutide",
+    "tot_spndng": 711505422.00,
+    "tot_clms": 470987,
+    "tot_benes": 115789,
+    "period_start": "2024-01-01",
+    "period_end": "2024-12-31"
+  },
+  {
+    "brnd_name": "Wegovy",
+    "gnrc_name": "Semaglutide",
+    "tot_spndng": 175769361.00,
+    "tot_clms": 124588,
+    "tot_benes": 53169,
+    "period_start": "2025-01-01",
+    "period_end": "2025-03-31"
+  },
+  {
+    "brnd_name": "Wegovy",
+    "gnrc_name": "Semaglutide",
+    "tot_spndng": 412773294.48,
+    "tot_clms": 290641,
+    "tot_benes": 73983,
+    "period_start": "2025-01-01",
+    "period_end": "2025-06-30"
+  },
+  {
+    "brnd_name": "Mounjaro",
+    "gnrc_name": "Tirzepatide",
+    "tot_spndng": 6337055129.85,
+    "tot_clms": 5105487,
+    "tot_benes": 894602,
+    "period_start": "2024-01-01",
+    "period_end": "2024-12-31"
+  },
+  {
+    "brnd_name": "Mounjaro",
+    "gnrc_name": "Tirzepatide",
+    "tot_spndng": 2502269527.00,
+    "tot_clms": 1954533,
+    "tot_benes": 853772,
+    "period_start": "2025-01-01",
+    "period_end": "2025-03-31"
+  },
+  {
+    "brnd_name": "Mounjaro",
+    "gnrc_name": "Tirzepatide",
+    "tot_spndng": 5722149022.21,
+    "tot_clms": 4418094,
+    "tot_benes": 1125206,
+    "period_start": "2025-01-01",
+    "period_end": "2025-06-30"
+  },
+  {
+    "brnd_name": "Zepbound",
+    "gnrc_name": "Tirzepatide",
+    "tot_spndng": 1244779862.00,
+    "tot_clms": 926443,
+    "tot_benes": 194507,
+    "period_start": "2024-01-01",
+    "period_end": "2024-12-31"
+  },
+  {
+    "brnd_name": "Zepbound",
+    "gnrc_name": "Tirzepatide",
+    "tot_spndng": 571527474.00,
+    "tot_clms": 430429,
+    "tot_benes": 146449,
+    "period_start": "2025-01-01",
+    "period_end": "2025-03-31"
+  },
+  {
+    "brnd_name": "Zepbound",
+    "gnrc_name": "Tirzepatide",
+    "tot_spndng": 1472651227.00,
+    "tot_clms": 1121312,
+    "tot_benes": 279840,
+    "period_start": "2025-01-01",
+    "period_end": "2025-06-30"
+  }
+]

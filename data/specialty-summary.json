@@ -1,0 +1,92 @@
+[
+  {
+    "specialty": "Internal Medicine",
+    "provider_count": 92204,
+    "total_services": 176905293,
+    "total_payments": 7564497493.26,
+    "total_medical_payments": 6053867447.35,
+    "total_drug_payments": 929499155.16,
+    "avg_payment_per_provider": 82040.88,
+    "avg_benes_per_provider": 252.14
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "provider_count": 189509,
+    "total_services": 181598380,
+    "total_payments": 7489201634.23,
+    "total_medical_payments": 4051887855.14,
+    "total_drug_payments": 2360179410.01,
+    "avg_payment_per_provider": 39518.98,
+    "avg_benes_per_provider": 144.43
+  },
+  {
+    "specialty": "Family Practice",
+    "provider_count": 83136,
+    "total_services": 121667655.4,
+    "total_payments": 4897840583.06,
+    "total_medical_payments": 3763951704.41,
+    "total_drug_payments": 626477806.17,
+    "avg_payment_per_provider": 58913.59,
+    "avg_benes_per_provider": 206.9
+  },
+  {
+    "specialty": "Dermatology",
+    "provider_count": 12398,
+    "total_services": 51421806.1,
+    "total_payments": 3009740163.43,
+    "total_medical_payments": 2091666241.65,
+    "total_drug_payments": 195446040.92,
+    "avg_payment_per_provider": 242760.14,
+    "avg_benes_per_provider": 663.26
+  },
+  {
+    "specialty": "Physician Assistant",
+    "provider_count": 105478,
+    "total_services": 81203765.8,
+    "total_payments": 2903508585.61,
+    "total_medical_payments": 1958265498.88,
+    "total_drug_payments": 395251066.44,
+    "avg_payment_per_provider": 27527.15,
+    "avg_benes_per_provider": 161.19
+  },
+  {
+    "specialty": "Orthopedic Surgery",
+    "provider_count": 21633,
+    "total_services": 49363771.5,
+    "total_payments": 2851799755.18,
+    "total_medical_payments": 2385883977.0,
+    "total_drug_payments": 212189947.39,
+    "avg_payment_per_provider": 131826.37,
+    "avg_benes_per_provider": 295.8
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "provider_count": 48541,
+    "total_services": 24508492.6,
+    "total_payments": 2026504177.69,
+    "total_medical_payments": 1913036360.4,
+    "total_drug_payments": 33930114.29,
+    "avg_payment_per_provider": 41748.3,
+    "avg_benes_per_provider": 289.13
+  },
+  {
+    "specialty": "Psychiatry",
+    "provider_count": 19904,
+    "total_services": 9306728.7,
+    "total_payments": 648092286.39,
+    "total_medical_payments": 628694382.08,
+    "total_drug_payments": 2411910.8,
+    "avg_payment_per_provider": 32560.91,
+    "avg_benes_per_provider": 82.3
+  },
+  {
+    "specialty": "Psychologist, Clinical",
+    "provider_count": 12540,
+    "total_services": 5818665,
+    "total_payments": 442136459.91,
+    "total_medical_payments": 441876294.72,
+    "total_drug_payments": 0,
+    "avg_payment_per_provider": 35258.09,
+    "avg_benes_per_provider": 54.57
+  }
+]
