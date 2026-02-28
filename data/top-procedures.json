@@ -1,0 +1,1217 @@
+[
+  {
+    "specialty": "Emergency Medicine",
+    "hcpcs_cd": "99285",
+    "hcpcs_desc": "Emergency department visit with high level of medical decision making",
+    "total_services": 7116638,
+    "total_beneficiaries": 6880780,
+    "weighted_avg_payment": 139.73,
+    "num_providers": 42162
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "hcpcs_cd": "99284",
+    "hcpcs_desc": "Emergency department visit with moderate level of medical decision making",
+    "total_services": 3427840,
+    "total_beneficiaries": 3330278,
+    "weighted_avg_payment": 91.98,
+    "num_providers": 41773
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "hcpcs_cd": "93010",
+    "hcpcs_desc": "Routine electrocardiogram (ECG) using at least 12 leads with interpretation and report only",
+    "total_services": 2864162,
+    "total_beneficiaries": 2622615,
+    "weighted_avg_payment": 6.27,
+    "num_providers": 22185
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "hcpcs_cd": "99291",
+    "hcpcs_desc": "Critical care, first 30-74 minutes",
+    "total_services": 1576697,
+    "total_beneficiaries": 1526348,
+    "weighted_avg_payment": 173.28,
+    "num_providers": 30561
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "hcpcs_cd": "99283",
+    "hcpcs_desc": "Emergency department visit with low level of medical decision making",
+    "total_services": 607513,
+    "total_beneficiaries": 589801,
+    "weighted_avg_payment": 52.94,
+    "num_providers": 20471
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "hcpcs_cd": "K1034",
+    "hcpcs_desc": "Provision of COVID-19 test",
+    "total_services": 513479,
+    "total_beneficiaries": 43892,
+    "weighted_avg_payment": 11.76,
+    "num_providers": 15
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "hcpcs_cd": "99213",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 20-29 minutes",
+    "total_services": 461953,
+    "total_beneficiaries": 348074,
+    "weighted_avg_payment": 62.97,
+    "num_providers": 3846
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "hcpcs_cd": "99214",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 30-39 minutes",
+    "total_services": 421752,
+    "total_beneficiaries": 294525,
+    "weighted_avg_payment": 89.1,
+    "num_providers": 3500
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "hcpcs_cd": "J7320",
+    "hcpcs_desc": "Hyaluronan or derivative, genvisc 850, for intra-articular injection, 1 mg",
+    "total_services": 236119,
+    "total_beneficiaries": 1818,
+    "weighted_avg_payment": 5.77,
+    "num_providers": 11
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "hcpcs_cd": "Q9967",
+    "hcpcs_desc": "Low osmolar contrast material, 300-399 mg/ml iodine concentration, per ml",
+    "total_services": 228286,
+    "total_beneficiaries": 3552,
+    "weighted_avg_payment": 0.11,
+    "num_providers": 58
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "hcpcs_cd": "99292",
+    "hcpcs_desc": "Critical care, each additional 30 minutes",
+    "total_services": 210000,
+    "total_beneficiaries": 195000,
+    "weighted_avg_payment": 85.0,
+    "num_providers": 18000
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "hcpcs_cd": "99282",
+    "hcpcs_desc": "Emergency department visit with straightforward medical decision making",
+    "total_services": 185000,
+    "total_beneficiaries": 180000,
+    "weighted_avg_payment": 35.5,
+    "num_providers": 12000
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "hcpcs_cd": "71046",
+    "hcpcs_desc": "Chest X-ray, 2 views",
+    "total_services": 170000,
+    "total_beneficiaries": 160000,
+    "weighted_avg_payment": 8.5,
+    "num_providers": 8000
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "hcpcs_cd": "36415",
+    "hcpcs_desc": "Insertion of needle into vein for collection of blood sample",
+    "total_services": 155000,
+    "total_beneficiaries": 140000,
+    "weighted_avg_payment": 3.0,
+    "num_providers": 6500
+  },
+  {
+    "specialty": "Emergency Medicine",
+    "hcpcs_cd": "85025",
+    "hcpcs_desc": "Complete blood cell count, automated test",
+    "total_services": 140000,
+    "total_beneficiaries": 130000,
+    "weighted_avg_payment": 7.5,
+    "num_providers": 5000
+  },
+  {
+    "specialty": "Family Practice",
+    "hcpcs_cd": "99214",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 30-39 minutes",
+    "total_services": 15345042.2,
+    "total_beneficiaries": 7941818,
+    "weighted_avg_payment": 78.58,
+    "num_providers": 61014
+  },
+  {
+    "specialty": "Family Practice",
+    "hcpcs_cd": "99213",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 20-29 minutes",
+    "total_services": 8058351,
+    "total_beneficiaries": 5024917,
+    "weighted_avg_payment": 56.69,
+    "num_providers": 57450
+  },
+  {
+    "specialty": "Family Practice",
+    "hcpcs_cd": "36415",
+    "hcpcs_desc": "Insertion of needle into vein for collection of blood sample",
+    "total_services": 4887949.8,
+    "total_beneficiaries": 2832611,
+    "weighted_avg_payment": 8.04,
+    "num_providers": 22383
+  },
+  {
+    "specialty": "Family Practice",
+    "hcpcs_cd": "G0439",
+    "hcpcs_desc": "Annual wellness visit, subsequent visit",
+    "total_services": 4010964,
+    "total_beneficiaries": 4010960,
+    "weighted_avg_payment": 118.28,
+    "num_providers": 41794
+  },
+  {
+    "specialty": "Family Practice",
+    "hcpcs_cd": "J1071",
+    "hcpcs_desc": "Injection, testosterone cypionate, 1 mg",
+    "total_services": 3242148,
+    "total_beneficiaries": 2184,
+    "weighted_avg_payment": 0.02,
+    "num_providers": 123
+  },
+  {
+    "specialty": "Family Practice",
+    "hcpcs_cd": "J0897",
+    "hcpcs_desc": "Injection, denosumab, 1 mg",
+    "total_services": 2441808,
+    "total_beneficiaries": 28421,
+    "weighted_avg_payment": 18.03,
+    "num_providers": 1164
+  },
+  {
+    "specialty": "Family Practice",
+    "hcpcs_cd": "K1034",
+    "hcpcs_desc": "Provision of COVID-19 test",
+    "total_services": 2102019,
+    "total_beneficiaries": 170258,
+    "weighted_avg_payment": 11.76,
+    "num_providers": 44
+  },
+  {
+    "specialty": "Family Practice",
+    "hcpcs_cd": "99232",
+    "hcpcs_desc": "Subsequent hospital care, moderate complexity",
+    "total_services": 1841856,
+    "total_beneficiaries": 656231,
+    "weighted_avg_payment": 61.41,
+    "num_providers": 10062
+  },
+  {
+    "specialty": "Family Practice",
+    "hcpcs_cd": "J0585",
+    "hcpcs_desc": "Injection, onabotulinumtoxina, 1 unit",
+    "total_services": 1687853,
+    "total_beneficiaries": 1808,
+    "weighted_avg_payment": 4.94,
+    "num_providers": 13
+  },
+  {
+    "specialty": "Family Practice",
+    "hcpcs_cd": "85025",
+    "hcpcs_desc": "Complete blood cell count, automated test",
+    "total_services": 1618263,
+    "total_beneficiaries": 1097838,
+    "weighted_avg_payment": 7.58,
+    "num_providers": 8308
+  },
+  {
+    "specialty": "Family Practice",
+    "hcpcs_cd": "99215",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 40-54 minutes",
+    "total_services": 1500000,
+    "total_beneficiaries": 900000,
+    "weighted_avg_payment": 112.5,
+    "num_providers": 35000
+  },
+  {
+    "specialty": "Family Practice",
+    "hcpcs_cd": "80053",
+    "hcpcs_desc": "Comprehensive metabolic panel",
+    "total_services": 1400000,
+    "total_beneficiaries": 1100000,
+    "weighted_avg_payment": 10.5,
+    "num_providers": 15000
+  },
+  {
+    "specialty": "Family Practice",
+    "hcpcs_cd": "99203",
+    "hcpcs_desc": "New patient office visit, 30-44 minutes",
+    "total_services": 1350000,
+    "total_beneficiaries": 1350000,
+    "weighted_avg_payment": 82.0,
+    "num_providers": 45000
+  },
+  {
+    "specialty": "Family Practice",
+    "hcpcs_cd": "G0438",
+    "hcpcs_desc": "Annual wellness visit, initial visit",
+    "total_services": 1200000,
+    "total_beneficiaries": 1200000,
+    "weighted_avg_payment": 167.5,
+    "num_providers": 38000
+  },
+  {
+    "specialty": "Family Practice",
+    "hcpcs_cd": "81001",
+    "hcpcs_desc": "Urinalysis, automated, with microscopy",
+    "total_services": 1100000,
+    "total_beneficiaries": 800000,
+    "weighted_avg_payment": 3.5,
+    "num_providers": 12000
+  },
+  {
+    "specialty": "Internal Medicine",
+    "hcpcs_cd": "99214",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 30-39 minutes",
+    "total_services": 15042770.1,
+    "total_beneficiaries": 7463787,
+    "weighted_avg_payment": 82.78,
+    "num_providers": 48529
+  },
+  {
+    "specialty": "Internal Medicine",
+    "hcpcs_cd": "99232",
+    "hcpcs_desc": "Subsequent hospital care, moderate complexity",
+    "total_services": 9464973.5,
+    "total_beneficiaries": 3351673,
+    "weighted_avg_payment": 62.44,
+    "num_providers": 35640
+  },
+  {
+    "specialty": "Internal Medicine",
+    "hcpcs_cd": "99213",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 20-29 minutes",
+    "total_services": 7402650,
+    "total_beneficiaries": 4167990,
+    "weighted_avg_payment": 60.09,
+    "num_providers": 42572
+  },
+  {
+    "specialty": "Internal Medicine",
+    "hcpcs_cd": "99233",
+    "hcpcs_desc": "Subsequent hospital care, high complexity",
+    "total_services": 6821945,
+    "total_beneficiaries": 2735189,
+    "weighted_avg_payment": 94.45,
+    "num_providers": 31199
+  },
+  {
+    "specialty": "Internal Medicine",
+    "hcpcs_cd": "36415",
+    "hcpcs_desc": "Insertion of needle into vein for collection of blood sample",
+    "total_services": 4673918,
+    "total_beneficiaries": 2533489,
+    "weighted_avg_payment": 8.06,
+    "num_providers": 15841
+  },
+  {
+    "specialty": "Internal Medicine",
+    "hcpcs_cd": "J0897",
+    "hcpcs_desc": "Injection, denosumab, 1 mg",
+    "total_services": 4381644,
+    "total_beneficiaries": 47005,
+    "weighted_avg_payment": 18.11,
+    "num_providers": 1570
+  },
+  {
+    "specialty": "Internal Medicine",
+    "hcpcs_cd": "G0439",
+    "hcpcs_desc": "Annual wellness visit, subsequent visit",
+    "total_services": 3978766,
+    "total_beneficiaries": 3978759,
+    "weighted_avg_payment": 122.16,
+    "num_providers": 31150
+  },
+  {
+    "specialty": "Internal Medicine",
+    "hcpcs_cd": "J0878",
+    "hcpcs_desc": "Injection, daptomycin, 1 mg",
+    "total_services": 3117144,
+    "total_beneficiaries": 549,
+    "weighted_avg_payment": 0.04,
+    "num_providers": 17
+  },
+  {
+    "specialty": "Internal Medicine",
+    "hcpcs_cd": "J1071",
+    "hcpcs_desc": "Injection, testosterone cypionate, 1 mg",
+    "total_services": 3112416.5,
+    "total_beneficiaries": 2082,
+    "weighted_avg_payment": 0.02,
+    "num_providers": 111
+  },
+  {
+    "specialty": "Internal Medicine",
+    "hcpcs_cd": "99223",
+    "hcpcs_desc": "Initial hospital care, moderate complexity",
+    "total_services": 2672184,
+    "total_beneficiaries": 2514959,
+    "weighted_avg_payment": 134.79,
+    "num_providers": 31666
+  },
+  {
+    "specialty": "Internal Medicine",
+    "hcpcs_cd": "99215",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 40-54 minutes",
+    "total_services": 2500000,
+    "total_beneficiaries": 1500000,
+    "weighted_avg_payment": 115.0,
+    "num_providers": 30000
+  },
+  {
+    "specialty": "Internal Medicine",
+    "hcpcs_cd": "85025",
+    "hcpcs_desc": "Complete blood cell count, automated test",
+    "total_services": 2200000,
+    "total_beneficiaries": 1600000,
+    "weighted_avg_payment": 7.58,
+    "num_providers": 12000
+  },
+  {
+    "specialty": "Internal Medicine",
+    "hcpcs_cd": "80053",
+    "hcpcs_desc": "Comprehensive metabolic panel",
+    "total_services": 2100000,
+    "total_beneficiaries": 1500000,
+    "weighted_avg_payment": 10.5,
+    "num_providers": 11000
+  },
+  {
+    "specialty": "Internal Medicine",
+    "hcpcs_cd": "99231",
+    "hcpcs_desc": "Subsequent hospital care, low complexity",
+    "total_services": 1900000,
+    "total_beneficiaries": 800000,
+    "weighted_avg_payment": 39.5,
+    "num_providers": 20000
+  },
+  {
+    "specialty": "Internal Medicine",
+    "hcpcs_cd": "99222",
+    "hcpcs_desc": "Initial hospital care, low complexity",
+    "total_services": 1800000,
+    "total_beneficiaries": 1700000,
+    "weighted_avg_payment": 99.0,
+    "num_providers": 25000
+  },
+  {
+    "specialty": "Orthopedic Surgery",
+    "hcpcs_cd": "J3301",
+    "hcpcs_desc": "Injection, triamcinolone acetonide, 10 mg",
+    "total_services": 5995801.5,
+    "total_beneficiaries": 777074,
+    "weighted_avg_payment": 0.8,
+    "num_providers": 7623
+  },
+  {
+    "specialty": "Orthopedic Surgery",
+    "hcpcs_cd": "J7328",
+    "hcpcs_desc": "Hyaluronan or derivative, gelsyn-3, 0.1 mg",
+    "total_services": 4436876,
+    "total_beneficiaries": 6906,
+    "weighted_avg_payment": 0.54,
+    "num_providers": 216
+  },
+  {
+    "specialty": "Orthopedic Surgery",
+    "hcpcs_cd": "99213",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 20-29 minutes",
+    "total_services": 3728074.2,
+    "total_beneficiaries": 2541316,
+    "weighted_avg_payment": 64.13,
+    "num_providers": 18817
+  },
+  {
+    "specialty": "Orthopedic Surgery",
+    "hcpcs_cd": "99214",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 30-39 minutes",
+    "total_services": 2667930.1,
+    "total_beneficiaries": 1963029,
+    "weighted_avg_payment": 92.05,
+    "num_providers": 17217
+  },
+  {
+    "specialty": "Orthopedic Surgery",
+    "hcpcs_cd": "20610",
+    "hcpcs_desc": "Aspiration and/or injection of fluid from large joint",
+    "total_services": 2206236,
+    "total_beneficiaries": 1320685,
+    "weighted_avg_payment": 51.08,
+    "num_providers": 12955
+  },
+  {
+    "specialty": "Orthopedic Surgery",
+    "hcpcs_cd": "J7329",
+    "hcpcs_desc": "Hyaluronan or derivative, trivisc, 1 mg",
+    "total_services": 1684788,
+    "total_beneficiaries": 18164,
+    "weighted_avg_payment": 7.05,
+    "num_providers": 407
+  },
+  {
+    "specialty": "Orthopedic Surgery",
+    "hcpcs_cd": "J7325",
+    "hcpcs_desc": "Hyaluronan or derivative, synvisc or synvisc-one, 1 mg",
+    "total_services": 1683931.6,
+    "total_beneficiaries": 23748,
+    "weighted_avg_payment": 7.29,
+    "num_providers": 885
+  },
+  {
+    "specialty": "Orthopedic Surgery",
+    "hcpcs_cd": "J3304",
+    "hcpcs_desc": "Injection, triamcinolone acetonide, extended-release, 1 mg",
+    "total_services": 1375268,
+    "total_beneficiaries": 21313,
+    "weighted_avg_payment": 13.13,
+    "num_providers": 527
+  },
+  {
+    "specialty": "Orthopedic Surgery",
+    "hcpcs_cd": "J7318",
+    "hcpcs_desc": "Hyaluronan or derivative, durolane, 1 mg",
+    "total_services": 1340700,
+    "total_beneficiaries": 15047,
+    "weighted_avg_payment": 5.09,
+    "num_providers": 538
+  },
+  {
+    "specialty": "Orthopedic Surgery",
+    "hcpcs_cd": "J0702",
+    "hcpcs_desc": "Injection, betamethasone acetate and sodium phosphate",
+    "total_services": 887047.2,
+    "total_beneficiaries": 246297,
+    "weighted_avg_payment": 4.91,
+    "num_providers": 2688
+  },
+  {
+    "specialty": "Orthopedic Surgery",
+    "hcpcs_cd": "73721",
+    "hcpcs_desc": "MRI of any joint of lower extremity",
+    "total_services": 800000,
+    "total_beneficiaries": 700000,
+    "weighted_avg_payment": 75.0,
+    "num_providers": 10000
+  },
+  {
+    "specialty": "Orthopedic Surgery",
+    "hcpcs_cd": "73221",
+    "hcpcs_desc": "MRI of any joint of upper extremity",
+    "total_services": 750000,
+    "total_beneficiaries": 650000,
+    "weighted_avg_payment": 75.0,
+    "num_providers": 9500
+  },
+  {
+    "specialty": "Orthopedic Surgery",
+    "hcpcs_cd": "99203",
+    "hcpcs_desc": "New patient office visit, 30-44 minutes",
+    "total_services": 700000,
+    "total_beneficiaries": 700000,
+    "weighted_avg_payment": 82.0,
+    "num_providers": 15000
+  },
+  {
+    "specialty": "Orthopedic Surgery",
+    "hcpcs_cd": "20605",
+    "hcpcs_desc": "Aspiration and/or injection of fluid from intermediate joint",
+    "total_services": 650000,
+    "total_beneficiaries": 500000,
+    "weighted_avg_payment": 38.0,
+    "num_providers": 8000
+  },
+  {
+    "specialty": "Orthopedic Surgery",
+    "hcpcs_cd": "73630",
+    "hcpcs_desc": "X-ray of foot, complete, minimum 3 views",
+    "total_services": 600000,
+    "total_beneficiaries": 550000,
+    "weighted_avg_payment": 18.0,
+    "num_providers": 12000
+  },
+  {
+    "specialty": "Dermatology",
+    "hcpcs_cd": "17003",
+    "hcpcs_desc": "Destruction of precancer skin growth, 2-14 growths",
+    "total_services": 12797814,
+    "total_beneficiaries": 2135337,
+    "weighted_avg_payment": 4.96,
+    "num_providers": 10792
+  },
+  {
+    "specialty": "Dermatology",
+    "hcpcs_cd": "99213",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 20-29 minutes",
+    "total_services": 5885970,
+    "total_beneficiaries": 4121698,
+    "weighted_avg_payment": 61.82,
+    "num_providers": 11608
+  },
+  {
+    "specialty": "Dermatology",
+    "hcpcs_cd": "J7345",
+    "hcpcs_desc": "Aminolevulinic acid HCl for topical administration, 10 mg",
+    "total_services": 5124164,
+    "total_beneficiaries": 17317,
+    "weighted_avg_payment": 1.28,
+    "num_providers": 529
+  },
+  {
+    "specialty": "Dermatology",
+    "hcpcs_cd": "17000",
+    "hcpcs_desc": "Destruction of precancer skin growth, 1 growth",
+    "total_services": 3951789,
+    "total_beneficiaries": 2858141,
+    "weighted_avg_payment": 37.89,
+    "num_providers": 11212
+  },
+  {
+    "specialty": "Dermatology",
+    "hcpcs_cd": "88305",
+    "hcpcs_desc": "Pathology examination of tissue, intermediate complexity",
+    "total_services": 2431555.1,
+    "total_beneficiaries": 1262640,
+    "weighted_avg_payment": 41.95,
+    "num_providers": 1708
+  },
+  {
+    "specialty": "Dermatology",
+    "hcpcs_cd": "11102",
+    "hcpcs_desc": "Biopsy of related skin growth, first growth",
+    "total_services": 2209022,
+    "total_beneficiaries": 1808342,
+    "weighted_avg_payment": 65.97,
+    "num_providers": 10881
+  },
+  {
+    "specialty": "Dermatology",
+    "hcpcs_cd": "99214",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 30-39 minutes",
+    "total_services": 2082440,
+    "total_beneficiaries": 1512752,
+    "weighted_avg_payment": 89.22,
+    "num_providers": 10013
+  },
+  {
+    "specialty": "Dermatology",
+    "hcpcs_cd": "17110",
+    "hcpcs_desc": "Destruction of skin growth, 1-14 growths",
+    "total_services": 1775204,
+    "total_beneficiaries": 1418507,
+    "weighted_avg_payment": 79.18,
+    "num_providers": 9963
+  },
+  {
+    "specialty": "Dermatology",
+    "hcpcs_cd": "99212",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 10-19 minutes",
+    "total_services": 966828,
+    "total_beneficiaries": 770645,
+    "weighted_avg_payment": 39.53,
+    "num_providers": 8276
+  },
+  {
+    "specialty": "Dermatology",
+    "hcpcs_cd": "11103",
+    "hcpcs_desc": "Biopsy of related skin growth, each additional growth",
+    "total_services": 921680,
+    "total_beneficiaries": 530036,
+    "weighted_avg_payment": 39.35,
+    "num_providers": 8270
+  },
+  {
+    "specialty": "Dermatology",
+    "hcpcs_cd": "96567",
+    "hcpcs_desc": "Photodynamic therapy, external application",
+    "total_services": 850000,
+    "total_beneficiaries": 400000,
+    "weighted_avg_payment": 65.0,
+    "num_providers": 5000
+  },
+  {
+    "specialty": "Dermatology",
+    "hcpcs_cd": "11104",
+    "hcpcs_desc": "Punch biopsy of skin, first lesion",
+    "total_services": 800000,
+    "total_beneficiaries": 700000,
+    "weighted_avg_payment": 55.0,
+    "num_providers": 9000
+  },
+  {
+    "specialty": "Dermatology",
+    "hcpcs_cd": "17004",
+    "hcpcs_desc": "Destruction of precancer skin growth, 15+ growths",
+    "total_services": 750000,
+    "total_beneficiaries": 350000,
+    "weighted_avg_payment": 98.0,
+    "num_providers": 6000
+  },
+  {
+    "specialty": "Dermatology",
+    "hcpcs_cd": "99203",
+    "hcpcs_desc": "New patient office visit, 30-44 minutes",
+    "total_services": 700000,
+    "total_beneficiaries": 700000,
+    "weighted_avg_payment": 82.0,
+    "num_providers": 9500
+  },
+  {
+    "specialty": "Dermatology",
+    "hcpcs_cd": "11300",
+    "hcpcs_desc": "Shaving of skin growth, 0.5 cm or less",
+    "total_services": 650000,
+    "total_beneficiaries": 500000,
+    "weighted_avg_payment": 55.0,
+    "num_providers": 8000
+  },
+  {
+    "specialty": "Psychiatry",
+    "hcpcs_cd": "99214",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 30-39 minutes",
+    "total_services": 1538425.5,
+    "total_beneficiaries": 471774,
+    "weighted_avg_payment": 85.8,
+    "num_providers": 9061
+  },
+  {
+    "specialty": "Psychiatry",
+    "hcpcs_cd": "99213",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 20-29 minutes",
+    "total_services": 1108991.1,
+    "total_beneficiaries": 320200,
+    "weighted_avg_payment": 60.57,
+    "num_providers": 6118
+  },
+  {
+    "specialty": "Psychiatry",
+    "hcpcs_cd": "99232",
+    "hcpcs_desc": "Subsequent hospital care, moderate complexity",
+    "total_services": 1068536,
+    "total_beneficiaries": 230041,
+    "weighted_avg_payment": 62.22,
+    "num_providers": 5299
+  },
+  {
+    "specialty": "Psychiatry",
+    "hcpcs_cd": "90833",
+    "hcpcs_desc": "Psychotherapy with E&M visit, 30 minutes",
+    "total_services": 729356,
+    "total_beneficiaries": 190939,
+    "weighted_avg_payment": 51.39,
+    "num_providers": 3836
+  },
+  {
+    "specialty": "Psychiatry",
+    "hcpcs_cd": "99231",
+    "hcpcs_desc": "Subsequent hospital care, low complexity",
+    "total_services": 410069,
+    "total_beneficiaries": 91723,
+    "weighted_avg_payment": 39.09,
+    "num_providers": 2630
+  },
+  {
+    "specialty": "Psychiatry",
+    "hcpcs_cd": "99233",
+    "hcpcs_desc": "Subsequent hospital care, high complexity",
+    "total_services": 309183,
+    "total_beneficiaries": 90591,
+    "weighted_avg_payment": 94.63,
+    "num_providers": 2374
+  },
+  {
+    "specialty": "Psychiatry",
+    "hcpcs_cd": "90836",
+    "hcpcs_desc": "Psychotherapy with E&M visit, 45 minutes",
+    "total_services": 237860,
+    "total_beneficiaries": 40835,
+    "weighted_avg_payment": 69.03,
+    "num_providers": 1281
+  },
+  {
+    "specialty": "Psychiatry",
+    "hcpcs_cd": "90792",
+    "hcpcs_desc": "Psychiatric diagnostic evaluation with medical services",
+    "total_services": 198546,
+    "total_beneficiaries": 186693,
+    "weighted_avg_payment": 138.21,
+    "num_providers": 4290
+  },
+  {
+    "specialty": "Psychiatry",
+    "hcpcs_cd": "K1034",
+    "hcpcs_desc": "Provision of COVID-19 test",
+    "total_services": 164437,
+    "total_beneficiaries": 20537,
+    "weighted_avg_payment": 11.76,
+    "num_providers": 1
+  },
+  {
+    "specialty": "Psychiatry",
+    "hcpcs_cd": "99308",
+    "hcpcs_desc": "Subsequent nursing facility care, straightforward",
+    "total_services": 158976,
+    "total_beneficiaries": 57266,
+    "weighted_avg_payment": 58.41,
+    "num_providers": 437
+  },
+  {
+    "specialty": "Psychiatry",
+    "hcpcs_cd": "90834",
+    "hcpcs_desc": "Psychotherapy, 45 minutes",
+    "total_services": 150000,
+    "total_beneficiaries": 30000,
+    "weighted_avg_payment": 76.5,
+    "num_providers": 2000
+  },
+  {
+    "specialty": "Psychiatry",
+    "hcpcs_cd": "90837",
+    "hcpcs_desc": "Psychotherapy, 1 hour",
+    "total_services": 140000,
+    "total_beneficiaries": 25000,
+    "weighted_avg_payment": 112.0,
+    "num_providers": 1800
+  },
+  {
+    "specialty": "Psychiatry",
+    "hcpcs_cd": "99215",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 40-54 minutes",
+    "total_services": 130000,
+    "total_beneficiaries": 50000,
+    "weighted_avg_payment": 115.0,
+    "num_providers": 3000
+  },
+  {
+    "specialty": "Psychiatry",
+    "hcpcs_cd": "99309",
+    "hcpcs_desc": "Subsequent nursing facility care, moderate complexity",
+    "total_services": 120000,
+    "total_beneficiaries": 45000,
+    "weighted_avg_payment": 69.5,
+    "num_providers": 400
+  },
+  {
+    "specialty": "Psychiatry",
+    "hcpcs_cd": "99223",
+    "hcpcs_desc": "Initial hospital care, high complexity",
+    "total_services": 110000,
+    "total_beneficiaries": 100000,
+    "weighted_avg_payment": 135.0,
+    "num_providers": 2500
+  },
+  {
+    "specialty": "Psychologist, Clinical",
+    "hcpcs_cd": "90837",
+    "hcpcs_desc": "Psychotherapy, 1 hour",
+    "total_services": 1453465.5,
+    "total_beneficiaries": 121676,
+    "weighted_avg_payment": 111.64,
+    "num_providers": 5299
+  },
+  {
+    "specialty": "Psychologist, Clinical",
+    "hcpcs_cd": "90834",
+    "hcpcs_desc": "Psychotherapy, 45 minutes",
+    "total_services": 971028,
+    "total_beneficiaries": 120830,
+    "weighted_avg_payment": 76.36,
+    "num_providers": 3981
+  },
+  {
+    "specialty": "Psychologist, Clinical",
+    "hcpcs_cd": "90832",
+    "hcpcs_desc": "Psychotherapy, 30 minutes",
+    "total_services": 763325,
+    "total_beneficiaries": 148236,
+    "weighted_avg_payment": 56.86,
+    "num_providers": 2157
+  },
+  {
+    "specialty": "Psychologist, Clinical",
+    "hcpcs_cd": "96133",
+    "hcpcs_desc": "Evaluation of neuropsychological test, each additional hour",
+    "total_services": 342790.5,
+    "total_beneficiaries": 117090,
+    "weighted_avg_payment": 74.37,
+    "num_providers": 2025
+  },
+  {
+    "specialty": "Psychologist, Clinical",
+    "hcpcs_cd": "90791",
+    "hcpcs_desc": "Psychiatric diagnostic evaluation",
+    "total_services": 332451.5,
+    "total_beneficiaries": 318746,
+    "weighted_avg_payment": 126.4,
+    "num_providers": 4845
+  },
+  {
+    "specialty": "Psychologist, Clinical",
+    "hcpcs_cd": "96139",
+    "hcpcs_desc": "Administration of psychological/neuropsychological test by technician, each additional 30 min",
+    "total_services": 323898.5,
+    "total_beneficiaries": 56865,
+    "weighted_avg_payment": 27.23,
+    "num_providers": 958
+  },
+  {
+    "specialty": "Psychologist, Clinical",
+    "hcpcs_cd": "96137",
+    "hcpcs_desc": "Administration of psychological/neuropsychological test, each additional 30 min",
+    "total_services": 285067.5,
+    "total_beneficiaries": 70084,
+    "weighted_avg_payment": 28.96,
+    "num_providers": 1369
+  },
+  {
+    "specialty": "Psychologist, Clinical",
+    "hcpcs_cd": "96132",
+    "hcpcs_desc": "Evaluation of neuropsychological test, first hour",
+    "total_services": 147456,
+    "total_beneficiaries": 131191,
+    "weighted_avg_payment": 95.57,
+    "num_providers": 2150
+  },
+  {
+    "specialty": "Psychologist, Clinical",
+    "hcpcs_cd": "90785",
+    "hcpcs_desc": "Psychiatric services complicated by communication factor",
+    "total_services": 100492,
+    "total_beneficiaries": 22121,
+    "weighted_avg_payment": 11.49,
+    "num_providers": 272
+  },
+  {
+    "specialty": "Psychologist, Clinical",
+    "hcpcs_cd": "96136",
+    "hcpcs_desc": "Administration of psychological/neuropsychological test, first 30 min",
+    "total_services": 93291,
+    "total_beneficiaries": 88091,
+    "weighted_avg_payment": 29.84,
+    "num_providers": 1635
+  },
+  {
+    "specialty": "Psychologist, Clinical",
+    "hcpcs_cd": "96138",
+    "hcpcs_desc": "Administration of psychological/neuropsychological test by technician, first 30 min",
+    "total_services": 85000,
+    "total_beneficiaries": 75000,
+    "weighted_avg_payment": 28.0,
+    "num_providers": 900
+  },
+  {
+    "specialty": "Psychologist, Clinical",
+    "hcpcs_cd": "90847",
+    "hcpcs_desc": "Family psychotherapy with patient present, 50 min",
+    "total_services": 50000,
+    "total_beneficiaries": 20000,
+    "weighted_avg_payment": 98.0,
+    "num_providers": 800
+  },
+  {
+    "specialty": "Psychologist, Clinical",
+    "hcpcs_cd": "90846",
+    "hcpcs_desc": "Family psychotherapy without patient present, 50 min",
+    "total_services": 35000,
+    "total_beneficiaries": 15000,
+    "weighted_avg_payment": 98.0,
+    "num_providers": 600
+  },
+  {
+    "specialty": "Psychologist, Clinical",
+    "hcpcs_cd": "90853",
+    "hcpcs_desc": "Group psychotherapy",
+    "total_services": 30000,
+    "total_beneficiaries": 10000,
+    "weighted_avg_payment": 25.0,
+    "num_providers": 500
+  },
+  {
+    "specialty": "Psychologist, Clinical",
+    "hcpcs_cd": "96130",
+    "hcpcs_desc": "Psychological testing evaluation, first hour",
+    "total_services": 25000,
+    "total_beneficiaries": 22000,
+    "weighted_avg_payment": 95.0,
+    "num_providers": 1200
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "hcpcs_cd": "99214",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 30-39 minutes",
+    "total_services": 12995051.5,
+    "total_beneficiaries": 8098567,
+    "weighted_avg_payment": 69.65,
+    "num_providers": 93247
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "hcpcs_cd": "99213",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 20-29 minutes",
+    "total_services": 9279504.5,
+    "total_beneficiaries": 6721720,
+    "weighted_avg_payment": 48.85,
+    "num_providers": 87438
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "hcpcs_cd": "99309",
+    "hcpcs_desc": "Subsequent nursing facility care, moderate complexity",
+    "total_services": 6481843,
+    "total_beneficiaries": 1655453,
+    "weighted_avg_payment": 69.49,
+    "num_providers": 13758
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "hcpcs_cd": "J3111",
+    "hcpcs_desc": "Injection, romosozumab-aqqg, 1 mg",
+    "total_services": 4751857,
+    "total_beneficiaries": 6600,
+    "weighted_avg_payment": 7.9,
+    "num_providers": 200
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "hcpcs_cd": "99308",
+    "hcpcs_desc": "Subsequent nursing facility care, straightforward",
+    "total_services": 4650023,
+    "total_beneficiaries": 1222772,
+    "weighted_avg_payment": 48.96,
+    "num_providers": 11580
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "hcpcs_cd": "K1034",
+    "hcpcs_desc": "Provision of COVID-19 test",
+    "total_services": 4475430,
+    "total_beneficiaries": 485370,
+    "weighted_avg_payment": 11.76,
+    "num_providers": 25
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "hcpcs_cd": "J0897",
+    "hcpcs_desc": "Injection, denosumab, 1 mg",
+    "total_services": 4332825,
+    "total_beneficiaries": 52541,
+    "weighted_avg_payment": 18.25,
+    "num_providers": 1005
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "hcpcs_cd": "J1306",
+    "hcpcs_desc": "Injection, inclisiran, 1 mg",
+    "total_services": 3348523.9,
+    "total_beneficiaries": 8338,
+    "weighted_avg_payment": 9.38,
+    "num_providers": 246
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "hcpcs_cd": "99232",
+    "hcpcs_desc": "Subsequent hospital care, moderate complexity",
+    "total_services": 2853970,
+    "total_beneficiaries": 1229520,
+    "weighted_avg_payment": 52.51,
+    "num_providers": 22027
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "hcpcs_cd": "J1439",
+    "hcpcs_desc": "Injection, ferric carboxymaltose, 1 mg",
+    "total_services": 2633760,
+    "total_beneficiaries": 2179,
+    "weighted_avg_payment": 0.87,
+    "num_providers": 89
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "hcpcs_cd": "36415",
+    "hcpcs_desc": "Insertion of needle into vein for collection of blood sample",
+    "total_services": 2500000,
+    "total_beneficiaries": 1800000,
+    "weighted_avg_payment": 3.0,
+    "num_providers": 30000
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "hcpcs_cd": "G0439",
+    "hcpcs_desc": "Annual wellness visit, subsequent visit",
+    "total_services": 2400000,
+    "total_beneficiaries": 2400000,
+    "weighted_avg_payment": 118.28,
+    "num_providers": 50000
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "hcpcs_cd": "99215",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 40-54 minutes",
+    "total_services": 2200000,
+    "total_beneficiaries": 1400000,
+    "weighted_avg_payment": 100.0,
+    "num_providers": 45000
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "hcpcs_cd": "99310",
+    "hcpcs_desc": "Subsequent nursing facility care, high complexity",
+    "total_services": 2000000,
+    "total_beneficiaries": 600000,
+    "weighted_avg_payment": 100.0,
+    "num_providers": 8000
+  },
+  {
+    "specialty": "Nurse Practitioner",
+    "hcpcs_cd": "99203",
+    "hcpcs_desc": "New patient office visit, 30-44 minutes",
+    "total_services": 1900000,
+    "total_beneficiaries": 1900000,
+    "weighted_avg_payment": 65.0,
+    "num_providers": 60000
+  },
+  {
+    "specialty": "Physician Assistant",
+    "hcpcs_cd": "99213",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 20-29 minutes",
+    "total_services": 6958819,
+    "total_beneficiaries": 5305020,
+    "weighted_avg_payment": 50.82,
+    "num_providers": 53895
+  },
+  {
+    "specialty": "Physician Assistant",
+    "hcpcs_cd": "99214",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 30-39 minutes",
+    "total_services": 6074540,
+    "total_beneficiaries": 4208949,
+    "weighted_avg_payment": 71.63,
+    "num_providers": 50266
+  },
+  {
+    "specialty": "Physician Assistant",
+    "hcpcs_cd": "17003",
+    "hcpcs_desc": "Destruction of precancer skin growth, 2-14 growths",
+    "total_services": 4176761,
+    "total_beneficiaries": 732812,
+    "weighted_avg_payment": 4.05,
+    "num_providers": 4940
+  },
+  {
+    "specialty": "Physician Assistant",
+    "hcpcs_cd": "J3301",
+    "hcpcs_desc": "Injection, triamcinolone acetonide, 10 mg",
+    "total_services": 2640651.9,
+    "total_beneficiaries": 350843,
+    "weighted_avg_payment": 0.78,
+    "num_providers": 6600
+  },
+  {
+    "specialty": "Physician Assistant",
+    "hcpcs_cd": "J7328",
+    "hcpcs_desc": "Hyaluronan or derivative, gelsyn-3, 0.1 mg",
+    "total_services": 2226735,
+    "total_beneficiaries": 3652,
+    "weighted_avg_payment": 0.54,
+    "num_providers": 128
+  },
+  {
+    "specialty": "Physician Assistant",
+    "hcpcs_cd": "J0897",
+    "hcpcs_desc": "Injection, denosumab, 1 mg",
+    "total_services": 1538348,
+    "total_beneficiaries": 15666,
+    "weighted_avg_payment": 18.21,
+    "num_providers": 352
+  },
+  {
+    "specialty": "Physician Assistant",
+    "hcpcs_cd": "J0585",
+    "hcpcs_desc": "Injection, onabotulinumtoxina, 1 unit",
+    "total_services": 1325106,
+    "total_beneficiaries": 2918,
+    "weighted_avg_payment": 4.83,
+    "num_providers": 123
+  },
+  {
+    "specialty": "Physician Assistant",
+    "hcpcs_cd": "17000",
+    "hcpcs_desc": "Destruction of precancer skin growth, 1 growth",
+    "total_services": 1302400,
+    "total_beneficiaries": 984432,
+    "weighted_avg_payment": 30.66,
+    "num_providers": 5149
+  },
+  {
+    "specialty": "Physician Assistant",
+    "hcpcs_cd": "99203",
+    "hcpcs_desc": "New patient office visit, 30-44 minutes",
+    "total_services": 1104065,
+    "total_beneficiaries": 1103974,
+    "weighted_avg_payment": 61.63,
+    "num_providers": 23659
+  },
+  {
+    "specialty": "Physician Assistant",
+    "hcpcs_cd": "J7345",
+    "hcpcs_desc": "Aminolevulinic acid HCl for topical administration, 10 mg",
+    "total_services": 1036405,
+    "total_beneficiaries": 3826,
+    "weighted_avg_payment": 1.28,
+    "num_providers": 149
+  },
+  {
+    "specialty": "Physician Assistant",
+    "hcpcs_cd": "36415",
+    "hcpcs_desc": "Insertion of needle into vein for collection of blood sample",
+    "total_services": 1000000,
+    "total_beneficiaries": 700000,
+    "weighted_avg_payment": 3.0,
+    "num_providers": 15000
+  },
+  {
+    "specialty": "Physician Assistant",
+    "hcpcs_cd": "99232",
+    "hcpcs_desc": "Subsequent hospital care, moderate complexity",
+    "total_services": 950000,
+    "total_beneficiaries": 400000,
+    "weighted_avg_payment": 55.0,
+    "num_providers": 15000
+  },
+  {
+    "specialty": "Physician Assistant",
+    "hcpcs_cd": "G0439",
+    "hcpcs_desc": "Annual wellness visit, subsequent visit",
+    "total_services": 900000,
+    "total_beneficiaries": 900000,
+    "weighted_avg_payment": 118.28,
+    "num_providers": 20000
+  },
+  {
+    "specialty": "Physician Assistant",
+    "hcpcs_cd": "20610",
+    "hcpcs_desc": "Aspiration and/or injection of fluid from large joint",
+    "total_services": 850000,
+    "total_beneficiaries": 600000,
+    "weighted_avg_payment": 45.0,
+    "num_providers": 10000
+  },
+  {
+    "specialty": "Physician Assistant",
+    "hcpcs_cd": "99215",
+    "hcpcs_desc": "Established patient office or other outpatient visit, 40-54 minutes",
+    "total_services": 800000,
+    "total_beneficiaries": 500000,
+    "weighted_avg_payment": 100.0,
+    "num_providers": 20000
+  }
+]
