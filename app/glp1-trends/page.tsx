@@ -87,7 +87,7 @@ export default function GLP1TrendsPage() {
   }, []);
 
   return (
-    <div style={{ maxWidth: 1200 }}>
+    <div className="dashboard-container">
       <DashboardHeader
         title="GLP-1 Prescribing Trends"
         description="Track the explosive growth of semaglutide (Ozempic/Wegovy) and tirzepatide (Mounjaro/Zepbound) across Medicare Part D — spending, claims, prescribers, and geography."
@@ -95,7 +95,7 @@ export default function GLP1TrendsPage() {
       />
 
       {/* Metric Cards */}
-      <div style={{ display: "flex", gap: 16, marginBottom: 32, flexWrap: "wrap" }}>
+      <div className="dashboard-metrics">
         <MetricCard
           label="GLP-1 Spending (2025 Ann.)"
           value={formatCurrency(metrics.annualized2025)}
@@ -116,30 +116,30 @@ export default function GLP1TrendsPage() {
         <MetricCard
           label="Top Prescribing Specialty"
           value={formatNumber(metrics.topSpec?.total_claims || 0)}
-          subtext={metrics.topSpec?.specialty || "—"}
+          subtext={metrics.topSpec?.specialty || "---"}
           accentColor="#a855f7"
         />
       </div>
 
       {/* Row 1: Spending + Claims side by side */}
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, marginBottom: 20 }}>
+      <div className="dashboard-grid-2col">
         <GLP1SpendingChart data={spending} />
         <GLP1ClaimsChart data={spending} />
       </div>
 
       {/* Row 2: Brand table (full width) */}
-      <div style={{ marginBottom: 20 }}>
+      <div className="dashboard-section">
         <GLP1BrandTable data={spending} />
       </div>
 
       {/* Row 3: Prescriber + Cost side by side */}
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, marginBottom: 20 }}>
+      <div className="dashboard-grid-2col">
         <GLP1PrescriberChart data={prescribers} />
         <GLP1CostChart data={spending} />
       </div>
 
       {/* Row 4: Geographic heatmap (full width) */}
-      <div style={{ marginBottom: 40 }}>
+      <div className="dashboard-section-last">
         <GLP1GeoHeatmap data={stateData} />
       </div>
     </div>

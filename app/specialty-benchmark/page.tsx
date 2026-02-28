@@ -90,15 +90,15 @@ export default function SpecialtyBenchmarkPage() {
   }, []);
 
   return (
-    <div style={{ maxWidth: 1200 }}>
+    <div className="dashboard-container">
       <DashboardHeader
         title="Specialty Revenue Benchmark"
         description="Compare Medicare Part B revenue, procedure volumes, and payment patterns across 9 key specialties relevant to urgent care and on-demand healthcare."
-        badge="2013–2023 Data"
+        badge="2013-2023 Data"
       />
 
       {/* Metric Cards */}
-      <div style={{ display: "flex", gap: 16, marginBottom: 32, flexWrap: "wrap" }}>
+      <div className="dashboard-metrics">
         <MetricCard
           label="Total Providers Analyzed"
           value={formatNumber(totalProviders)}
@@ -113,41 +113,41 @@ export default function SpecialtyBenchmarkPage() {
         <MetricCard
           label="Highest Avg Revenue"
           value={formatCurrency(highestSpecialty?.avg_payment_per_provider || 0)}
-          subtext={highestSpecialty?.specialty || "—"}
+          subtext={highestSpecialty?.specialty || "---"}
           accentColor="#a855f7"
         />
         <MetricCard
           label="Fastest Growing (CAGR)"
-          value={fastestGrowing ? `+${fastestGrowing.cagr.toFixed(1)}%` : "—"}
-          subtext={fastestGrowing?.specialty || "—"}
+          value={fastestGrowing ? `+${fastestGrowing.cagr.toFixed(1)}%` : "---"}
+          subtext={fastestGrowing?.specialty || "---"}
           accentColor="#06b6d4"
         />
       </div>
 
       {/* Row 1: Trend chart (full width) */}
-      <div style={{ marginBottom: 20 }}>
+      <div className="dashboard-section">
         <TrendLineChart data={trends} />
       </div>
 
       {/* Row 2: Revenue bar + Market size */}
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, marginBottom: 20 }}>
+      <div className="dashboard-grid-2col">
         <SpecialtyBarChart data={summary} />
         <MarketSizeChart data={summary} />
       </div>
 
       {/* Row 3: Provider volume + Scatter */}
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, marginBottom: 20 }}>
+      <div className="dashboard-grid-2col">
         <ProviderVolumeChart data={summary} />
         <RevenueScatter data={summary} />
       </div>
 
       {/* Row 4: Full width table */}
-      <div style={{ marginBottom: 20 }}>
+      <div className="dashboard-section">
         <ProcedureTable data={procedures} specialties={specialties} />
       </div>
 
       {/* Row 5: Full width heatmap */}
-      <div style={{ marginBottom: 40 }}>
+      <div className="dashboard-section-last">
         <StateHeatmap data={stateData} specialties={specialties} />
       </div>
     </div>

@@ -48,14 +48,14 @@ function MetricCard({
 
 export default function EDvsUrgentCarePage() {
   return (
-    <div style={{ maxWidth: 1200 }}>
+    <div className="dashboard-container">
       <DashboardHeader
         title="ED vs Urgent Care Value Story"
-        description="Why patients and payers should choose urgent care over the ED for non-emergent conditions — backed by CMS Medicare data."
+        description="Why patients and payers should choose urgent care over the ED for non-emergent conditions -- backed by CMS Medicare data."
         badge="Dashboard #5"
       />
 
-      <div style={{ display: "flex", gap: 16, marginBottom: 24, flexWrap: "wrap" }}>
+      <div className="dashboard-metrics">
         <MetricCard
           label="Avg ED Visit Cost"
           value="$1,228"
@@ -82,16 +82,16 @@ export default function EDvsUrgentCarePage() {
         />
       </div>
 
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, marginBottom: 20 }}>
+      <div className="dashboard-grid-2col">
         <CostComparisonChart data={edVsUcData} />
         <AvoidableVisitsChart />
       </div>
 
-      <div style={{ marginBottom: 20 }}>
+      <div className="dashboard-section">
         <SpecialtyCostChart data={SPECIALTY_COSTS} />
       </div>
 
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20 }}>
+      <div className="dashboard-grid-2col" style={{ marginBottom: 40 }}>
         <EDStateHeatmap data={edStateCosts} />
         <EDTrendChart data={edTrends} />
       </div>

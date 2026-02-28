@@ -77,15 +77,15 @@ export default function PayerRatesPage() {
   }, []);
 
   return (
-    <div style={{ maxWidth: 1200 }}>
+    <div className="dashboard-container">
       <DashboardHeader
         title="Payer Rate Comparison"
         description="Compare in-network negotiated rates from 10 major payers against Medicare fee schedules for common urgent care, orthopedic, dermatology, and behavioral health procedures."
-        badge="2024–2025 Transparency Data"
+        badge="2024-2025 Transparency Data"
       />
 
       {/* Metric Cards */}
-      <div style={{ display: "flex", gap: 16, marginBottom: 32, flexWrap: "wrap" }}>
+      <div className="dashboard-metrics">
         <MetricCard
           label="Payers Analyzed"
           value={String(metrics.payerCount)}
@@ -112,28 +112,28 @@ export default function PayerRatesPage() {
       </div>
 
       {/* Row 1: Hero comparison chart (full width) */}
-      <div style={{ marginBottom: 20 }}>
+      <div className="dashboard-section">
         <PayerComparisonChart data={payerRates} medicare={medicareFees} />
       </div>
 
       {/* Row 2: Medicare index + Rate range */}
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, marginBottom: 20 }}>
+      <div className="dashboard-grid-2col">
         <MedicareIndexChart data={payerRates} medicare={medicareFees} />
         <RateRangeChart data={payerRates} medicare={medicareFees} />
       </div>
 
       {/* Row 3: Heatmap (full width) */}
-      <div style={{ marginBottom: 20 }}>
+      <div className="dashboard-section">
         <RateSpreadHeatmap data={payerRates} medicare={medicareFees} />
       </div>
 
       {/* Row 4: Payer ranking (full width) */}
-      <div style={{ marginBottom: 20 }}>
+      <div className="dashboard-section">
         <PayerRankingChart data={payerRates} medicare={medicareFees} />
       </div>
 
       {/* Row 5: Detail table (full width) */}
-      <div style={{ marginBottom: 40 }}>
+      <div className="dashboard-section-last">
         <PayerRateTable data={payerRates} medicare={medicareFees} />
       </div>
     </div>

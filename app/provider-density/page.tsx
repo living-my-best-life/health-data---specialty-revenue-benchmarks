@@ -84,7 +84,7 @@ export default function ProviderDensityPage() {
   }, []);
 
   return (
-    <div style={{ maxWidth: 1200 }}>
+    <div className="dashboard-container">
       <DashboardHeader
         title="Provider Density & White Space"
         description="Map provider concentration by specialty across all 50 states + DC to identify underserved markets, HPSA shortage areas, and expansion opportunities."
@@ -92,14 +92,7 @@ export default function ProviderDensityPage() {
       />
 
       {/* Metric Cards */}
-      <div
-        style={{
-          display: "flex",
-          gap: 16,
-          marginBottom: 32,
-          flexWrap: "wrap",
-        }}
-      >
+      <div className="dashboard-metrics">
         <MetricCard
           label="States Analyzed"
           value={String(metrics.stateCount)}
@@ -126,30 +119,23 @@ export default function ProviderDensityPage() {
       </div>
 
       {/* Row 1: Density heatmap (full width) */}
-      <div style={{ marginBottom: 20 }}>
+      <div className="dashboard-section">
         <DensityHeatmap data={providerDensity} />
       </div>
 
       {/* Row 2: Ranking + Specialty comparison */}
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "1fr 1fr",
-          gap: 20,
-          marginBottom: 20,
-        }}
-      >
+      <div className="dashboard-grid-2col">
         <DensityRankingChart data={providerDensity} />
         <SpecialtyComparisonChart data={providerDensity} />
       </div>
 
       {/* Row 3: HPSA Shortage map (full width) */}
-      <div style={{ marginBottom: 20 }}>
+      <div className="dashboard-section">
         <ShortageMap data={hpsaShortage} />
       </div>
 
       {/* Row 4: Full reference table */}
-      <div style={{ marginBottom: 40 }}>
+      <div className="dashboard-section-last">
         <ProviderDensityTable
           densityData={providerDensity}
           hpsaData={hpsaShortage}

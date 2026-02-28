@@ -58,3 +58,84 @@ body {
 .recharts-tooltip-wrapper {
   outline: none !important;
 }
+
+/* ── Responsive grid utilities ── */
+
+.dashboard-grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.dashboard-metrics {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.dashboard-section {
+  margin-bottom: 20px;
+}
+
+.dashboard-section-last {
+  margin-bottom: 40px;
+}
+
+.dashboard-container {
+  max-width: 1200px;
+}
+
+@media (max-width: 1024px) {
+  .dashboard-grid-2col {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dashboard-grid-2col {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .dashboard-metrics {
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .dashboard-container {
+    max-width: 100%;
+  }
+}
+
+/* ── Responsive Recharts containers ── */
+.recharts-responsive-container {
+  max-width: 100%;
+}
+
+/* Prevent horizontal scroll from chart overflow */
+@media (max-width: 767px) {
+  .recharts-wrapper {
+    max-width: 100% !important;
+  }
+}
+
+/* ── Focus visible for keyboard nav ── */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
