@@ -23,7 +23,7 @@ const navItems = [
     label: "Payer Rates",
     description: "Transparency & reimbursement",
     icon: "💰",
-    active: false,
+    active: true,
   },
   {
     href: "/provider-density",
