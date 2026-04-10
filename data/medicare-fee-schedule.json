@@ -1,11 +1,11 @@
 [
-  {"hcpcs_code": "11102", "non_facility_rate": 104.45, "facility_rate": 37.99},
-  {"hcpcs_code": "17003", "non_facility_rate": 6.69, "facility_rate": 2.92},
-  {"hcpcs_code": "20610", "non_facility_rate": 66.40, "facility_rate": 46.75},
-  {"hcpcs_code": "27447", "non_facility_rate": 1389.86, "facility_rate": 1389.86},
-  {"hcpcs_code": "90834", "non_facility_rate": 95.55, "facility_rate": 87.06},
-  {"hcpcs_code": "90837", "non_facility_rate": 141.90, "facility_rate": 129.58},
-  {"hcpcs_code": "99213", "non_facility_rate": 78.34, "facility_rate": 55.14},
-  {"hcpcs_code": "99214", "non_facility_rate": 113.86, "facility_rate": 83.49},
-  {"hcpcs_code": "99215", "non_facility_rate": 155.84, "facility_rate": 120.20}
+  {"hcpcs_code": "11102", "non_facility_rate": 110.29, "facility_rate": 38.73},
+  {"hcpcs_code": "17003", "non_facility_rate": 7.06, "facility_rate": 2.97},
+  {"hcpcs_code": "20610", "non_facility_rate": 70.06, "facility_rate": 47.56},
+  {"hcpcs_code": "27447", "non_facility_rate": 1435.19, "facility_rate": 1435.19},
+  {"hcpcs_code": "90834", "non_facility_rate": 100.85, "facility_rate": 88.57},
+  {"hcpcs_code": "90837", "non_facility_rate": 149.87, "facility_rate": 131.74},
+  {"hcpcs_code": "99213", "non_facility_rate": 90.13, "facility_rate": 52.38},
+  {"hcpcs_code": "99214", "non_facility_rate": 135.60, "facility_rate": 84.50},
+  {"hcpcs_code": "99215", "non_facility_rate": 185.39, "facility_rate": 114.19}
 ]

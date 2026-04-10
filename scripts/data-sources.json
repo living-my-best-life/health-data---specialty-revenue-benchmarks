@@ -1,0 +1,99 @@
+{
+  "dashboard_url": "https://digital-health-rouge.vercel.app/",
+  "last_updated": "2026-03-11",
+  "data_sources": {
+    "specialty_benchmark": {
+      "files": ["specialty-summary.json", "specialty-trends.json", "top-procedures.json", "state-specialty.json"],
+      "source": "CMS Medicare Provider Utilization and Payment Data: Physician and Other Practitioners",
+      "url": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners",
+      "current_vintage": "2023",
+      "update_frequency": "annual",
+      "typical_release": "Q1 of year+2 (e.g., 2024 data releases ~Q1 2026)",
+      "specialties_tracked": [
+        "Internal Medicine", "Nurse Practitioner", "Family Practice",
+        "Dermatology", "Physician Assistant", "Orthopedic Surgery",
+        "Emergency Medicine", "Psychiatry", "Psychologist, Clinical"
+      ]
+    },
+    "payer_rates": {
+      "files": ["payer-rates.json"],
+      "source": "Transparency in Coverage Machine-Readable Files (No Surprises Act)",
+      "url": "https://transparency-in-coverage.uhc.com/",
+      "current_vintage": "2025",
+      "update_frequency": "monthly (MRFs updated monthly by payers)",
+      "payers_tracked": [
+        "UnitedHealthcare", "Aetna", "Cigna", "BCBS Minnesota",
+        "BCBS Alabama", "Blue Shield CA", "Premera",
+        "HealthPartners", "UCare", "Healthcare Bluebook"
+      ],
+      "billing_codes_tracked": ["11102", "17003", "20610", "27447", "90834", "90837", "99213", "99214", "99215"]
+    },
+    "medicare_fee_schedule": {
+      "files": ["medicare-fee-schedule.json"],
+      "source": "CMS Physician Fee Schedule (PFS) Lookup",
+      "url": "https://www.cms.gov/medicare/payment/fee-schedules/physician",
+      "current_vintage": "2025",
+      "update_frequency": "annual (January) with quarterly updates",
+      "typical_release": "November for following year"
+    },
+    "glp1_trends": {
+      "files": ["glp1-quarterly-spending.json", "glp1-prescriber-specialty.json", "glp1-state-prescribing.json"],
+      "source": "CMS Part D Spending by Drug + Medicare Part D Prescribers",
+      "url": "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug",
+      "current_vintage": "2025-H1",
+      "update_frequency": "quarterly/annual",
+      "drugs_tracked": ["Ozempic", "Mounjaro", "Rybelsus", "Wegovy", "Zepbound"],
+      "notes": "GLP-1 market is rapidly evolving. Watch for: generic semaglutide entries, new indications (MASH/NASH), CMS coverage decisions"
+    },
+    "ed_utilization": {
+      "files": ["ed-vs-uc.json", "ed-trends.json", "ed-state-costs.json"],
+      "source": "CMS Medicare Provider Utilization (Emergency Medicine subset)",
+      "url": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners",
+      "current_vintage": "2023",
+      "update_frequency": "annual",
+      "notes": "ED trends data spans 2018-2023. Shows COVID dip and partial recovery."
+    },
+    "provider_density": {
+      "files": ["provider-density.json"],
+      "source": "CMS Medicare Provider Utilization (aggregated by state and specialty)",
+      "url": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners",
+      "current_vintage": "2023",
+      "update_frequency": "annual"
+    },
+    "hpsa_shortage": {
+      "files": ["hpsa-shortage.json"],
+      "source": "HRSA Health Professional Shortage Areas (HPSA)",
+      "url": "https://data.hrsa.gov/topics/health-workforce/shortage-areas",
+      "current_vintage": "2025",
+      "update_frequency": "continuously updated (quarterly snapshots recommended)",
+      "metrics": ["primary_care_shortage_areas", "mental_health_shortage_areas", "shortage_counts_by_state"]
+    }
+  },
+  "emerging_topics_to_track": {
+    "medicare_advantage": {
+      "why": "MA enrollment now >50% of Medicare. Rate negotiations differ significantly from FFS.",
+      "source": "CMS MA enrollment and plan data",
+      "priority": "high"
+    },
+    "telehealth_utilization": {
+      "why": "Post-PHE telehealth flexibilities being made permanent. Huge impact on provider density and access.",
+      "source": "CMS telehealth utilization data, ASPE reports",
+      "priority": "high"
+    },
+    "ai_clinical_adoption": {
+      "why": "HIMSS 2026 shows Epic/Oracle/Amazon deploying clinical AI agents. CPT codes for AI-assisted services emerging.",
+      "source": "AMA CPT code updates, CMS utilization for AI-related codes",
+      "priority": "medium"
+    },
+    "prior_auth_reform": {
+      "why": "CMS Prior Authorization Interoperability Rule taking effect. Impacts payer-provider dynamics.",
+      "source": "CMS rulemaking, payer compliance data",
+      "priority": "medium"
+    },
+    "site_of_service_shift": {
+      "why": "Significant cost differential between hospital outpatient, ASC, and office settings. Movement to lower-cost sites accelerating.",
+      "source": "CMS OPPS data, ASC utilization",
+      "priority": "medium"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "research_date": "2026-03-11",
+  "categories": [
+    {
+      "name": "Specialty Benchmark (Medicare Provider Utilization)",
+      "current_vintage": "2023",
+      "latest_available": "2024 (RY24 released ~May 2025 per CMS methodology doc dated 2024-05-30)",
+      "update_needed": true,
+      "data_url": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider-and-service",
+      "notes": "2024 data should be available on data.cms.gov. Need to download and filter for tracked specialties. This would extend trends from 2013-2023 to 2013-2024."
+    },
+    {
+      "name": "Payer Rates (Transparency in Coverage)",
+      "current_vintage": "2025",
+      "latest_available": "2026 (MRFs updated monthly)",
+      "update_needed": true,
+      "data_url": "https://transparency-in-coverage.uhc.com/",
+      "notes": "Payer MRFs are updated monthly per No Surprises Act. However, downloading and parsing multi-GB MRF files requires specialized tooling. Consider using Turquoise Health or Dolthub aggregations instead."
+    },
+    {
+      "name": "Medicare Fee Schedule",
+      "current_vintage": "2025",
+      "latest_available": "2026 (CMS-1832-F final rule, effective Jan 1 2026)",
+      "update_needed": true,
+      "data_url": "https://www.cms.gov/medicare/payment/fee-schedules/physician",
+      "notes": "CY2026 PFS final rule issued Oct 31 2025. Key changes: +3.26% non-QP conversion factor, +3.77% QP conversion factor, -2.5% efficiency adjustment on non-time-based work RVUs, updated PE methodology for office vs facility settings. New rates in effect since Jan 1 2026."
+    },
+    {
+      "name": "GLP-1 Trends (Part D Spending)",
+      "current_vintage": "2025-H1",
+      "latest_available": "2025-H1 (current), but major policy updates available",
+      "update_needed": false,
+      "data_url": "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug",
+      "notes": "Data vintage is current. MAJOR POLICY UPDATE: CMS BALANCE model announced - GLP-1 coverage expanding to weight management in Medicaid (May 2026) and Part D (Jan 2027). Medicare GLP-1 payment demonstration launching July 2026 with $50/month beneficiary cost. This will dramatically change GLP-1 spending data in future updates."
+    },
+    {
+      "name": "ED Trends",
+      "current_vintage": "2023",
+      "latest_available": "2024 (same CMS Provider Utilization dataset)",
+      "update_needed": true,
+      "data_url": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners",
+      "notes": "Tied to same CMS Provider Utilization release as specialty benchmark. 2024 data would add another year to the 2018-2023 trend."
+    },
+    {
+      "name": "Provider Density",
+      "current_vintage": "2023",
+      "latest_available": "2024 (same CMS dataset)",
+      "update_needed": true,
+      "data_url": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners",
+      "notes": "Same source as specialty benchmark. Update with 2024 data when available."
+    },
+    {
+      "name": "HPSA Shortage Areas",
+      "current_vintage": "2025",
+      "latest_available": "2026-03-10 (updated daily by HRSA)",
+      "update_needed": true,
+      "data_url": "https://data.hrsa.gov/data/download",
+      "notes": "HRSA HPSA data is refreshed daily. Latest data as of March 10, 2026. Can be downloaded from data.hrsa.gov in bulk. 20% of US population lives in primary care HPSAs."
+    }
+  ],
+  "emerging_topics": [
+    {
+      "topic": "CMS BALANCE Model (GLP-1 Coverage Expansion)",
+      "data_available": true,
+      "source": "CMS Innovation Center - https://www.cms.gov/priorities/innovation/innovation-models/balance",
+      "recommendation": "HIGH PRIORITY - Add a section tracking BALANCE model implementation timeline and projected spending impact. This will be the biggest driver of GLP-1 data changes starting mid-2026."
+    },
+    {
+      "topic": "Telehealth Utilization Post-PHE",
+      "data_available": true,
+      "source": "CMS PFS 2026 final rule includes permanent telehealth flexibilities. CMS telehealth utilization data available.",
+      "recommendation": "Add telehealth utilization page. 2026 PFS permanently allows virtual supervision and teaching physician virtual presence."
+    },
+    {
+      "topic": "AI in Clinical Settings (HIMSS 2026)",
+      "data_available": false,
+      "source": "No CMS claims data yet for AI-specific services. Epic reports 85% customer AI adoption.",
+      "recommendation": "Track but don't add to dashboard yet. Watch for CPT code introductions for AI-assisted services."
+    },
+    {
+      "topic": "Medicare Advantage Market Share",
+      "data_available": true,
+      "source": "CMS MA enrollment data - https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/mcradvpartdenroldata",
+      "recommendation": "Add MA enrollment trends. MA now >50% of Medicare enrollment. Rate dynamics differ significantly from FFS data in current dashboard."
+    }
+  ],
+  "immediate_actions": [
+    "UPDATE: Medicare Fee Schedule data to 2026 rates (3.26% conversion factor increase)",
+    "UPDATE: HPSA shortage data from HRSA (daily refresh available)",
+    "INVESTIGATE: CMS Provider Utilization 2024 data availability on data.cms.gov",
+    "ADD CONTEXT: GLP-1 page should note upcoming BALANCE model and $50/month demonstration",
+    "FUTURE: Add telehealth and MA enrollment pages when data pipeline is established"
+  ]
+}
